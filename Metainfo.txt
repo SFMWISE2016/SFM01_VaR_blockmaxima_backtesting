@@ -1,0 +1,22 @@
+Name of QuantLet : SFS01-VaR-blockmaxima-backtesting
+
+Published in: Statistics of Financial Markets
+
+Description: Provides backtesting results for Value-at-Risk under the Block Maxima Model with 0.05 level for the portfolio formed by Bayer, BMW, Siemens shares during from 2002-01-01 to 2016-06-30.
+
+Keywords: portfolio, risk, VaR, backtest, block-maxima, estimation, exceedance, outlier, plot
+
+Author: Liang chen, Du yao, Feng xiaowei, Zi xuefei
+
+Submitted: July 15th,2016
+
+Datafiles: Bayer-close-0216.txt, Bmw-close-0216.txt, Siemens-close-0216.txt, VaR-0216-Matlab.txt, VaR-0216-R.txt
+
+Input:
+- a,b,c : vector of returns
+- v : values of Value-at-Risk
+- h : size of the window
+
+Output:
+- p : exceedance ratio
+- Plot : the Value-at-Risk estimation results for a portfolio of Bayer, BMW and Siemens stock.
